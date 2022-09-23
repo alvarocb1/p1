@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">p1</string>
+    <string name="entre_com_o_km_atual_do_veiculo">Entre com o km atual do veiculo</string>
+    <string name="entre_com_a_quantidade_abastecida">Entre com a quantidade abastecida</string>
+    <string name="entre_com_a_data_de_abastecimento">Entre com a data de abastecimento</string>
+    <string name="entre_com_o_valor_de_abastecimento">Entre com o valor de abastecimento</string>
+    <string name="salvar">Salvar</string>
 </resources>
