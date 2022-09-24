@@ -46,4 +46,18 @@ public class Abastecimento {
     public void setValor(String valor) {
         this.valor = valor;
     }
+
+    @Override
+    public String toString() {
+        return "Abastecimento{" +
+                "kmAtual='" + kmAtual + '\'' +
+                ", qntAbastecida='" + qntAbastecida + '\'' +
+                ", dia='" + dia + '\'' +
+                ", valor='" + valor + '\'' +
+                '}';
+    }
+
+
 }
+
+

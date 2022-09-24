@@ -76,10 +76,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    Abastecimento abastecimento;
+
     public void salvar(View view){
-        if (abastecimento == null)
-            abastecimento = new Abastecimento();
+        Abastecimento abastecimento = new Abastecimento();
         abastecimento.setKmAtual(kmAtual.getText().toString());
         abastecimento.setQntAbastecida(qntAbastecida.getText().toString());
         abastecimento.setDia(dia.getText().toString());
