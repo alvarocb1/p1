@@ -41,10 +41,10 @@ public class AbastecimentoDB {
         while(query.moveToNext()){
             Abastecimento abastecimento = new Abastecimento();
             abastecimento.setId(Integer.parseInt(query.getString(0)));
-            abastecimento.setKmAtual(query.getInt(1));
-            abastecimento.setQntAbastecida(query.getInt(2));
+            abastecimento.setKmAtual(query.getString(1));
+            abastecimento.setQntAbastecida(query.getString(2));
             abastecimento.setDia(query.getString(3));
-            abastecimento.setValor(query.getDouble(4));
+            abastecimento.setValor(query.getString(4));
             dados.add(abastecimento);
         }
         conexao.close();

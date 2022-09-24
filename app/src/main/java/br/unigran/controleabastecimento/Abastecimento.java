@@ -2,10 +2,10 @@ package br.unigran.controleabastecimento;
 
 public class Abastecimento {
     private Integer id;
-    private Integer kmAtual;
-    private Integer qntAbastecida;
+    private String kmAtual;
+    private String qntAbastecida;
     private String dia;
-    private Double valor;
+    private String valor;
 
     public Integer getId() {
         return id;
@@ -15,19 +15,19 @@ public class Abastecimento {
         this.id = id;
     }
 
-    public Integer getKmAtual() {
+    public String getKmAtual() {
         return kmAtual;
     }
 
-    public void setKmAtual(Integer kmAtual) {
+    public void setKmAtual(String kmAtual) {
         this.kmAtual = kmAtual;
     }
 
-    public Integer getQntAbastecida() {
+    public String getQntAbastecida() {
         return qntAbastecida;
     }
 
-    public void setQntAbastecida(Integer qntAbastecida) {
+    public void setQntAbastecida(String qntAbastecida) {
         this.qntAbastecida = qntAbastecida;
     }
 
@@ -39,12 +39,11 @@ public class Abastecimento {
         this.dia = dia;
     }
 
-    public double getValor() {
+    public String getValor() {
         return valor;
     }
 
-    public void setValor(double valor) {
+    public void setValor(String valor) {
         this.valor = valor;
     }
-
 }
